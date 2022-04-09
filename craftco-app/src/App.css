@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: black;
+  
+}
+.section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.section svg {
+    position: relative;
+    display: block;
+    width: calc(160% + 1.3px);
+    height: 316px;
+}
+
+.section .shape-fill {
+    fill: #FFF01F;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding:  80px 20vw;
+  
+
+}
+.nav-left {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-left .logo {
+  font-size: 64px;
+
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.nav-right div {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.slide-show {
+  background: rgba(255,240,31,.9);
+  width: 100%;
+  z-index: -1;
+  border: 5px solid rgba(0, 0, 0, 1.0);
+}
+.slide img {
+  height: 400px;
+  width: 400px;
+}
+.about-us {
+  width: 100vw;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+
+}
+.contact-card img {
+  height: 200px;
+  width: 100vw;  
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(255,240,31);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {
+  background-color: rgb(255,240,33)
+}
+.button:active {
+  background-color: rgb(255,240,33);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.footer {
+  position: relative;
+  text-align: center;
+}
+
+.bottom-section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.bottom-section svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 82px;
+}
+
+.bottom-section .shape-fill {
+    fill: #FFF01F;
+}
