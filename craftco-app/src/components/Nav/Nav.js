@@ -14,7 +14,7 @@ const Nav = () => {
           <div className="logo"><Link to="/"> CRAFTCO </Link></div> 
         </div>
         <div className="nav-right"> 
-          <div><Link to="/slideshow">Gallery</Link></div>
+          <div><Link to="/gallery">Gallery</Link></div>
           <div><Link to="/consult">Consultation</Link></div>
         </div>      
       </div>

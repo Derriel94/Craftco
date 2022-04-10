@@ -30,9 +30,6 @@
   justify-content: space-between;
   position: relative;
   padding:  80px 20vw;
-  
-  
-
 }
 .nav-left {
   display: flex;
@@ -68,13 +65,30 @@
   height: 400px;
   width: 400px;
 }
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.gallery div {
+  margin: 4px;
+  border: 2px double rgba(0, 0, 0, 1.0);
+  border-radius: 25px;
+}
+.gallery img {
+  height: 200px;
+  width: 200px;
+  border: 2px double rgba(255, 240, 31, .5);
+  border-radius: 25px;
+}
 .about-us {
   width: 100vw;
   z-index: -1;
   display: flex;
   flex-direction: column;
-
-
 }
 .contact-card img {
   height: 200px;
