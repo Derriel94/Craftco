@@ -7,9 +7,10 @@ const Footer = () => {
 
         <div>
           <div>Contact Us Via Social Media!</div>
-          <div>Facebook</div>
+          <div><a href="https://m.facebook.com/people/Craftco-Exteriors-LLC/100054624872433/"><img src="./facebook.png" alt="icon"/></a></div>
           <div>Instagram</div>
-          <div>More Coming Soon!</div>
+          <div>And More Coming Soon!</div>
+          <div>©Website By Derriel Collins Via Ghost Code LLC©</div>
         </div>
         <div className="bottom-section">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

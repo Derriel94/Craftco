@@ -6,19 +6,18 @@ import { Link } from "react-router-dom";
 const Home = () => {
 
 	return (
-	<div>
+	<div className="home">
 		<SlideShow />
-		<div className="about-us">
-        <h1 className="glow neonText background">Contact Us For a Consultation!</h1>
-        <div className="contact-card">
-          <img src="./p2.jpg" alt="heroimg" /> 
-          <Link to="/consult" style={{ textDecoration: 'none', color: 'black' }}><button className="button"> Schedule Today! </button></Link>
-          <h1 className="f4">Owner & Operator: Chris Rodgers</h1>
-          <p className="">Phone Number: 4698918404</p>
-          <p className="">Email Address: ChrisRodgers@idkgmail.com</p>  
+        <h1>Contact Us For a Consultation!</h1>
+        <div className="consult-img-div">
+          <img src="./p5.jpg" alt="heroimg" />
+           <img src="./pone.jpg" alt="heroimg" />
+            <img src="./p4.jpg" alt="heroimg" />
+        </div> 
+        <h1>Your Dream Pergola, Is Just a Click Away!</h1>
+          <Link to="/consult" style={{ textDecoration: 'none', color: 'black' }}><button className="button"> Schedule Today! </button></Link>  
           <p> Located in the DFW Area!</p>
-        </div>
-      </div>
+          <p> "You show us the land, and well come up with the plan! Its that Simple!" -Chris Rodgers</p>
 	</div>
 			
 		);

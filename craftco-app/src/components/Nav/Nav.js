@@ -11,7 +11,7 @@ const Nav = () => {
             </svg>
           </div>
         <div className="nav-left">
-          <div className="logo"><Link to="/" style={{ textDecoration: 'none', color: 'black' }}> CRAFTCO </Link></div> 
+          <div className="logo"><Link to="/" style={{ textDecoration: 'none', color: 'black' }}>CraftCo Ex</Link></div> 
         </div>
         <div className="nav-right"> 
           <div><Link to="/gallery" style={{ textDecoration: 'none', color: 'black' }}>Gallery</Link></div>
