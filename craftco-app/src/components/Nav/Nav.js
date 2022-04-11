@@ -11,11 +11,11 @@ const Nav = () => {
             </svg>
           </div>
         <div className="nav-left">
-          <div className="logo"><Link to="/"> CRAFTCO </Link></div> 
+          <div className="logo"><Link to="/" style={{ textDecoration: 'none', color: 'black' }}> CRAFTCO </Link></div> 
         </div>
         <div className="nav-right"> 
-          <div><Link to="/gallery">Gallery</Link></div>
-          <div><Link to="/consult">Consultation</Link></div>
+          <div><Link to="/gallery" style={{ textDecoration: 'none', color: 'black' }}>Gallery</Link></div>
+          <div><Link to="/consult" style={{ textDecoration: 'none', color: 'black' }}>Consultation</Link></div>
         </div>      
       </div>
 			

@@ -90,6 +90,11 @@
   display: flex;
   flex-direction: column;
 }
+.textarea {
+  height: 200px;
+  width: 500px;
+
+}
 .contact-card img {
   height: 200px;
   width: 98.5vw;  
@@ -109,12 +114,13 @@
   box-shadow: 0 9px #999;
 }
 .button:hover {
-  background-color: rgb(255,240,33)
+  background-color: rgb(255,240,33);
 }
 .button:active {
   background-color: rgb(255,240,33);
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+
 }
 .footer {
   position: relative;

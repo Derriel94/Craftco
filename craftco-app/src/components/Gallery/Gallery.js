@@ -3,7 +3,7 @@ import React from 'react';
 
 const Gallery = () => {
 
-
+	//This needs to be improved, created an object and loop thoroguh this muck.
 
 	return (
 		<div>
