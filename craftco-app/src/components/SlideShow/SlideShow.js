@@ -8,24 +8,19 @@ const SlideShow = () => {
 	<div className="slide-show">
         <Carousel>
                 <div>
-                    <img alt="slide" src="./pone.jpg" />
-                    <p className="legend">Pergola 1!</p>
+                    <img alt="slide" src="./pergola1.jpg" />
                 </div>
                 <div>
-                    <img alt="slide" src="./p2.jpg"  />
-                    <p className="legend">Outside Pergola!</p>
+                    <img alt="slide" src="./pergola2.jpg"  />
                 </div>
                 <div>
-                    <img alt="slide" src="./p3.jpg"  />
-                    <p className="legend">Anywhere youd like!</p>
+                    <img alt="slide" src="./roof1.jpg"  />
                 </div>
                 <div>
-                    <img alt="slide" src="./p4.jpg"  />
-                    <p className="legend">We love our Job!</p>
+                    <img alt="slide" src="./roof2.jpg"  />
                 </div>
                 <div>
-                    <img alt="slide" src="./p5.jpg"  />
-                    <p className="legend">Pergolatory!</p>
+                    <img alt="slide" src="./fullpergola.jpg"  />
                 </div>
         </Carousel>
      </div>

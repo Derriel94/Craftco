@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
 
+  const handleHamburgerMenuClick = (e) => {
+    const button = document.getElementById("minibutton");
+    const nav = document.getElementById("mynav");
+    nav.classList.toggle('show');
+  }
+  
 	return (      
 		<div className="nav"> 
           <div className="section">
@@ -11,11 +17,13 @@ const Nav = () => {
             </svg>
           </div>
         <div className="nav-left">
-          <div className="logo"><Link to="/" style={{ textDecoration: 'none', color: 'black' }}>CraftCo Ex</Link></div> 
+          <div className="logo"><Link to="/" style={{ textDecoration: 'none', color: 'black' }}><img src="./craftco-logo3.png"/></Link></div> 
         </div>
         <div className="nav-right"> 
           <div><Link to="/gallery" style={{ textDecoration: 'none', color: 'black' }}>Gallery</Link></div>
           <div><Link to="/consult" style={{ textDecoration: 'none', color: 'black' }}>Consultation</Link></div>
+          <button onClick={handleHamburgerMenuClick}id="minibutton" className="minimenu">
+            </button>
         </div>      
       </div>
 			

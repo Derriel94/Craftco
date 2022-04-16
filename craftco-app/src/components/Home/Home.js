@@ -10,11 +10,20 @@ const Home = () => {
 		<SlideShow />
         <h1>Contact Us For a Consultation!</h1>
         <div className="consult-img-div">
-          <img src="./p5.jpg" alt="heroimg" />
-           <img src="./pone.jpg" alt="heroimg" />
-            <img src="./p4.jpg" alt="heroimg" />
+          <div>
+              <img src="./skystudio.jpg" alt="heroimg" />
+              <p>Balconies</p>
+          </div>
+           <div>
+              <img src="./poolpergola.jpg" alt="heroimg" />
+              <p>Pergolas</p>
+          </div>
+          <div>
+              <img src="./pergolalight.jpg" alt="heroimg" />
+              <p>Roofing</p>
+          </div>
         </div> 
-        <h1>Your Dream Pergola, Is Just a Click Away!</h1>
+        <h1>From basic To BOLD We've Got You Coverd!</h1>
           <Link to="/consult" style={{ textDecoration: 'none', color: 'black' }}><button className="button"> Schedule Today! </button></Link>  
           <p> Located in the DFW Area!</p>
           <p> "You show us the land, and well come up with the plan! Its that Simple!" -Chris Rodgers</p>

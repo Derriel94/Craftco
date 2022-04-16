@@ -2,11 +2,15 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  color: black;
+  color: rgba( 0, 74, 173, .8);
+  background-color: rgba( 0, 0, 0, .1);
   
 }
 .home {
-  width: 100%;
+  /*width: 100vw;*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .section {
     position: absolute;
@@ -26,23 +30,22 @@
 }
 
 .section .shape-fill {
-    fill: #FFF01F;
+    fill: rgba( 0, 74, 173, .8);
 }
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
   padding-top: 80px;
   padding-right: 20vw;
   padding-left:  20vw;
-  margin-bottom:  80px;
 }
 .nav-left {
   display: flex;
-  justify-content: space-around;
+  
 }
 .nav-left .logo {
-  font-size: 64px;
+
 
 }
 .nav-left .logo:link {
@@ -51,6 +54,7 @@
 .nav-right {
   display: flex;
   align-items: center;
+
 }
 .nav-right div {
   margin: 10px;
@@ -62,9 +66,9 @@
   border-bottom: 2px black solid;
 }
 .slide-show {
-  padding-top:  50px;
-  background: rgba(255,240,31,.9);
-  max-width: 100vw;
+  padding-top:  20px;
+  background:  rgba(0, 73, 173, .8);
+  width: 800px;
   z-index: -1;
   border: 5px solid rgba(0, 0, 0, 1.0);
   border-top: 15px solid black;
@@ -90,7 +94,7 @@
 .gallery img {
   height: 200px;
   width: 200px;
-  border: 2px double rgba(255, 240, 31, .5);
+  border: 2px double rgba(0, 73, 173, .5);
   border-radius: 25px;
 }
 .about-us {
@@ -105,11 +109,19 @@
 
 }
 
+.consult-img-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:  wrap;
+  border-radius: 200px;
+
+}
+
 .consult-img-div img{
   height: 200px;
-  max-width: 300px;  
+  width: 200px;  
   border-radius: 200px;
-  margin: 10px;
+
 }
 .button {
   display: inline-block;
@@ -120,25 +132,24 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: rgb(255,240,31);
+  background-color: rgba( 0, 74, 173, 1.0);
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
 .button:hover {
-  background-color: rgb(255,240,33);
+  background-color: rgba( 0, 74, 173, .8);
 }
 .button:active {
-  background-color: rgb(255,240,33);
+  background-color: rgba( 0, 74, 173, .8);
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-  color: black;
-
+  color: #e6e6e6;
 }
 .footer {
   position: relative;
   text-align: center;
-  border-top: #FFF01F groove 20px;
+  border-top: rgba(0, 73, 173, .8) groove 20px;
   margin-top: 30px;
   padding-top: 30px;
 }
@@ -162,5 +173,5 @@
 }
 
 .bottom-section .shape-fill {
-    fill: #FFF01F;
+    fill: rgba( 0, 74, 173, .8);
 }
