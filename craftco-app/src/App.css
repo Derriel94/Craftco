@@ -65,10 +65,11 @@
   cursor: pointer;
   border-bottom: 2px black solid;
 }
+
+
 .slide-show {
   padding-top:  20px;
   background:  rgba(0, 73, 173, .8);
-  width: 800px;
   z-index: -1;
   border: 5px solid rgba(0, 0, 0, 1.0);
   border-top: 15px solid black;

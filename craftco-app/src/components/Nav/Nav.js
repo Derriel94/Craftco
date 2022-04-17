@@ -22,8 +22,8 @@ const Nav = () => {
         <div className="nav-right"> 
           <div><Link to="/gallery" style={{ textDecoration: 'none', color: 'black' }}>Gallery</Link></div>
           <div><Link to="/consult" style={{ textDecoration: 'none', color: 'black' }}>Consultation</Link></div>
-          <button onClick={handleHamburgerMenuClick}id="minibutton" className="minimenu">
-            </button>
+          {/*<button onClick={handleHamburgerMenuClick}id="minibutton" className="minimenu">
+            </button>*/}
         </div>      
       </div>
 			
