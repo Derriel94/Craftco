@@ -68,16 +68,12 @@ html,body {
 }
 
 
-.slide-show {
-  padding-top:  20px;
-  background:  rgba( 255, 22, 22, 1);
-  z-index: 0;
-  border: 5px solid whitesmoke;
+.hero-image img{
+  max-height: 80vh;
+  width: 60vw;
+  border: 2px double rgba(0, 73, 173);
 }
-.slide img {
-  height: 300px;
-  width: 300px;
-}
+
 
 .gallery {
   display: flex;
@@ -113,15 +109,24 @@ html,body {
   display: flex;
   justify-content: space-around;
   flex-wrap:  wrap;
-  border-radius: 200px;
-
 }
 
-.consult-img-div img{
-  height: 200px;
-  width: 200px;  
-  border-radius: 200px;
+.consult-img-div div {
+  width: 275px;  
+}
+.consult-img-div img {
+  height: 275px;
+  width: 100%;
+  border-radius: 300px;
+}
+@media (max-width: 400px) {
+  .consult-img-div img {
+    display: flex;
+    justify-content: space-around; 
+    width: 100%;
 
+  }
+  
 }
 .button {
   display: inline-block;
@@ -175,4 +180,7 @@ html,body {
 
 .bottom-section .shape-fill {
     fill: rgba( 255, 22, 22, 1);
+}
+.minicon {
+  height: 40px;
 }

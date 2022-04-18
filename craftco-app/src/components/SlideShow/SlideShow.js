@@ -1,23 +1,12 @@
 import React from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import './../../App.css';
 
 const SlideShow = () => {
 
 	return (
-	<div className="slide-show">
-        <Carousel >
-                <div>
-                    <img alt="slide" src="./pergola1.jpg" />
-                </div>
-                <div>
-                    <img alt="slide" src="./pergola2.jpg"  />
-                </div>
-                <div>
-                    <img alt="slide" src="./roof1.jpg"  />
-                </div>
-        </Carousel>
-     </div>
+	<div className="hero-image">
+        <img src="./pergola1.jpg" alt="" className="" />
+    </div>
 		);
 }
 
