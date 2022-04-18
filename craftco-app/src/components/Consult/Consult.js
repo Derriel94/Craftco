@@ -58,37 +58,36 @@ const Consult = () => {
 	return (
 	<div>
 	<div className="about-us">
-        <h1 className="glow neonText background">Contact Us For a Consultation!</h1>
+        <h1>Contact Us For a Consultation!</h1>
         <form onSubmit={handleSubmit}>
-        	<label>Enter In Your Contact Info and a brief description of your desired Pergola.</label>
+        	
         		<div className="">
-        			<label>First Name: </label>
+        			<label className="title">First Name: </label>
         			<input onChange={handleFirstNameChange} className="textbox" type="textbox" placeholder="First Name" value={firstName} />
-        			<label> Last Name: </label>
+        			<label className="title"> Last Name: </label>
         			<input onChange={handleLastNameChange} className="textbox" type="textbox" placeholder="Last Name" value={lastName} />
         		</div>
 	        	<div className="">
-	        		<label> Phone Number: </label>
+	        		<label className="title"> Phone Number: </label>
 	        		<input onChange={handlePhoneNumberChange} className="textbox" type="textbox" placeholder="Phone Number" value={phoneNumber} />
 	        	</div>
 	        	<div className="">
-	        		<label> Address: </label>
+	        		<label className="title"> Address: </label>
 	        		<textarea onChange={handleAddressChange} className="textbox" type="textarea" rows="1" cols="20" placeholder="Address" value={address} />
 	        	</div>
 	        	<div>
+	        	<label className="title" >Please enter In Your Contact Info and
+	        	 a brief description of your desired Pergola And The Times Your Are You would like us to meet,
+	        	 do to high demand our schedule is busy but we will Quickly Respond to you on when we are avaible to meet.</label>
 	        		<textarea value={textArea} onChange={handleTextAreaChange} rows="10" cols="60"/>
 	        	</div>
 	        	<div><input className="button" type="submit" value="Shoot Us a Text!" /></div>	
         </form>
         <div className="contact-card">        	
-          <h1 className="f4">Owner & Operator: Chris Rodgers</h1>
+          <h1 className="title">Owner & Operator: Chris Rodgers</h1>
           <p> *~* Here at CraftCo Ex. we specialize in happiness and SATISFACTION.
-          	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. - CHRIS RODGERS
+          	Therefore We At the moment we are only scheduling Build Appointments for Monday and Tuesday
+          	and Consultation from Friday - Saturday. - CHRIS RODGERS
 					</p>
           <address> Located in the DFW Area!</address>
         </div>

@@ -7,7 +7,7 @@ const Gallery = () => {
 
 	return (
 		<div>
-			<h1>Craftco Has All You Need!</h1>
+			<h1>Construction and Custom Design</h1>
 			<div className="gallery">
 	            <div>
 	                <img alt="slide" src="./pone.jpg" />

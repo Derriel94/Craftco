@@ -5,8 +5,8 @@ import { Carousel } from 'react-responsive-carousel';
 const SlideShow = () => {
 
 	return (
-	<div>
-        <Carousel className="slide-show">
+	<div className="slide-show">
+        <Carousel >
                 <div>
                     <img alt="slide" src="./pergola1.jpg" />
                 </div>
@@ -15,12 +15,6 @@ const SlideShow = () => {
                 </div>
                 <div>
                     <img alt="slide" src="./roof1.jpg"  />
-                </div>
-                <div>
-                    <img alt="slide" src="./roof2.jpg"  />
-                </div>
-                <div>
-                    <img alt="slide" src="./fullpergola.jpg"  />
                 </div>
         </Carousel>
      </div>
