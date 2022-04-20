@@ -140,11 +140,13 @@ html,body {
   height: 275px;
   width: 275px;
   border-radius: 300px;
+  transition: 2s;
 }
 .consult-img-div img:hover {
-  position: absolute;
-  height: 275px;
-  width: 275px;
+  opacity: .4;
+  height: 305px;
+  width: 305px;
+  z-index: 2;
   border-radius: 300px;
 }
 @media (max-width: 400px) {
