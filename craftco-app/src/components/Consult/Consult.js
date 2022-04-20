@@ -18,7 +18,7 @@ const Consult = () => {
 			};
 
 	const handleSubmit = (e) => {
-		fetch('http://localhost:3001/consult',{
+		fetch('https://craftco-server.herokuapp.com/consult',{
 			method: 'post',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({
@@ -26,8 +26,9 @@ const Consult = () => {
 			})
 		})
 		.then(response => {
-			response.json();
 			alert('Your Message has been sent!');
+			response.json();
+			
 		})
 
 	};
