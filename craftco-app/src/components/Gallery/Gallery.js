@@ -30,7 +30,7 @@ const Gallery = () => {
 			<div className="gallery">
 				{buildImgList()}
 	        </div>
-	        <Link to="/consult" ><button className="button"> Consultation </button></Link>
+	        <Link to="/consult" ><button className="button" style={{margin: '20px'}}> Consultation </button></Link>
         </div>
 		);
 }

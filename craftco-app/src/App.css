@@ -8,7 +8,7 @@ html,body {
 .App {
   text-align: center;
   color: rgba( 0, 74, 173, 1.0);
-  background-color: ghostwhite;
+  background-color: black;
   position: relative;
 }
 .home {
@@ -72,15 +72,46 @@ html,body {
   justify-content: space-evenly;
   align-items: center;
 }
+.new-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 10px double rgba(255,22,22,1);
+  border-radius: 100px;
+  padding: 20px;
+}
+.new-item-container .new-item{
+  max-height: 300px;
+  max-width: 300px;
+ border-radius: 100px;
+}
+.new-item img {
+  height: 300px;
+  width: 300px;
+
+}
 .hero-image{
-  max-height: 60vh;
-  max-width: 60vw;
+  max-height: 70vh;
+  max-width: 70vw;
   
 }
 .hero-image img{
-  height: 50vh;
+   opacity: .8;
+  height: 100%;
   width: 100%;
-  border: 2px double rgba(0, 73, 173);
+  max-width: 70vw;
+  max-height: 70vh;
+border: 10px double rgba(255,22,22,1);
+}
+.hero-image img:hover {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  max-width: 70vw;
+  max-height: 70vh;
+  z-index: 2;
+  border-radius: 300px;
 }
 .side-image {
   max-width: 20vw;
@@ -141,6 +172,7 @@ html,body {
   width: 275px;
   border-radius: 300px;
   transition: 2s;
+  border: 10px rgba( 0, 74, 173, 1) double;
 }
 .consult-img-div img:hover {
   opacity: .4;
