@@ -8,7 +8,7 @@ html,body {
 .App {
   text-align: center;
   color: rgba( 0, 74, 173, 1.0);
-  background-color: black;
+  background-color: ghostwhite;
   position: relative;
 }
 .home {
@@ -67,14 +67,36 @@ html,body {
   border-bottom: 2px rgba( 0, 74, 173, 1) solid;
 }
 
-
+.slide-show-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hero-image{
+  max-height: 60vh;
+  max-width: 60vw;
+  
+}
 .hero-image img{
-  max-height: 80vh;
-  width: 60vw;
+  height: 50vh;
+  width: 100%;
   border: 2px double rgba(0, 73, 173);
 }
+.side-image {
+  max-width: 20vw;
+  max-height: 60vh;
+}
+.side-image img {
+  width: 100%;
+  height: 500px;
+}
+@media (max-width: 420px) {
+  .side-image {
+    display: none;    
 
-
+  }
+  
+}
 .gallery {
   display: flex;
   justify-content: space-around;
@@ -105,18 +127,24 @@ html,body {
 
 }
 
-.consult-img-div {
+.consult-img-container {
   display: flex;
   justify-content: space-around;
   flex-wrap:  wrap;
 }
 
-.consult-img-div div {
-  width: 275px;  
+.consult-img-div {
+  max-width: 300px;  
 }
 .consult-img-div img {
   height: 275px;
-  width: 100%;
+  width: 275px;
+  border-radius: 300px;
+}
+.consult-img-div img:hover {
+  position: absolute;
+  height: 275px;
+  width: 275px;
   border-radius: 300px;
 }
 @media (max-width: 400px) {
@@ -159,7 +187,10 @@ html,body {
   padding-top: 30px;
   padding-bottom: 40px;
 }
-
+.link:hover {
+  cursor: pointer;
+  color: rgba( 255, 22, 22, 1);
+}
 .bottom-section {
     position: absolute;
     bottom: 0;

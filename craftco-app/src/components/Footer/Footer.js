@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 
 	return (
 	<div className="footer">
-        <div>Contact Us Via Social Media!</div>
+        <div>Contact Us</div>
+        <Link to="/consult" style={{ textDecoration: 'none', color: 'rgba( 0, 74, 173, 1.0)' }}><p className="link"> Consultation </p></Link>
         <div><a href="https://m.facebook.com/people/Craftco-Exteriors-LLC/100054624872433/"><img src="./facebook.png" alt="icon"/></a></div> 
         <div className="bottom-section">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

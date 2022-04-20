@@ -16,7 +16,7 @@ const Nav = () => {
         </div>
         <div className="nav-right"> 
           <div><Link to="/gallery" style={{ textDecoration: 'none', color: 'rgba( 255, 22, 22, 1)' }}>Gallery</Link></div>
-          <div><Link to="/consult" style={{ textDecoration: 'none', color: 'rgba( 255, 22, 22, 1)' }}>Consultation</Link></div>
+          <div><Link to="/consult" style={{ textDecoration: 'none', color: 'rgba( 255, 22, 22, 1)' }}>Contact Us</Link></div>
           {/*<button onClick={handleHamburgerMenuClick}id="minibutton" className="minimenu">
             </button>*/}
         </div>      

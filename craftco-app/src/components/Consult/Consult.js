@@ -78,7 +78,7 @@ const Consult = () => {
 	        	<div>
 	        	<label className="title" >Please enter In Your Contact Info and
 	        	 a brief description of your desired Construction/Design And The Times Your Are You would like us to meet,
-	        	 do to high demand our schedule is busy but we will Quickly Respond to you on when we are avaible to meet.</label>
+	        	 due to high demand our schedule is busy but we will Quickly Respond to you on when we are avaible to meet.</label>
 	        		<textarea value={textArea} onChange={handleTextAreaChange} rows="10" cols="60"/>
 	        	</div>
 	        	<div><input className="button" type="submit" value="Shoot Us a Text!" /></div>	

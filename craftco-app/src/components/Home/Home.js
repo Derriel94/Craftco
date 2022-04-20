@@ -5,22 +5,23 @@ import { Link } from "react-router-dom";
 
 
 const Home = () => {
-
+  
+  
 	return (
 	<div className="home">
     <h1>CraftCo Has All You Need!</h1>
 		<SlideShow />
         <h1>Contact Us For a Consultation!</h1>
-        <div className="consult-img-div">
-          <div>
+        <div className="consult-img-container">
+          <div className="consult-img-div">
               <img src="./skystudio.jpg" alt="heroimg" />
               <p>Decks</p>
           </div>
-           <div>
+           <div className="consult-img-div">
               <img src="./poolpergola.jpg" alt="heroimg" />
               <p>Roofing</p>
           </div>
-          <div>
+          <div className="consult-img-div">
               <img src="./pergolalight.jpg" alt="heroimg" />
               <p>Pergolas</p>
           </div>
