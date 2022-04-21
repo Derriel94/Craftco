@@ -11,7 +11,7 @@ const Home = () => {
 	<div className="home">
     <h1>CraftCo Has All You Need!</h1>
 		<SlideShow />
-    <h1>Newest Build!</h1>
+    <h1>Most Recent Build!</h1>
     <h1>Pergola Hammock Setup</h1>
     <div className="new-item-container">
       <img className="new-item" alt="pergolaimg" src="./closeup1.jpg" />
@@ -36,7 +36,6 @@ const Home = () => {
     <h1 className="title">From basic To BOLD We've Got You Coverd!</h1>
       <Link to="/consult" ><button className="button"> Schedule Today! </button></Link>  
       <p> Located in the DFW Area!</p>
-      <p> "You show us the land, and well come up with the plan! Its that Simple!" -Chris Rodgers</p>
 	</div>
 			
 		);

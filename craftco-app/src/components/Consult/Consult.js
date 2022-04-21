@@ -26,11 +26,10 @@ const Consult = () => {
 			})
 		})
 		.then(response => {
-			alert('Your Message has been sent!');
 			response.json();
 			
 		})
-
+		alert('Your Message has been sent!');
 	};
 
 	const handleTextAreaChange = (e) => {

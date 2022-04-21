@@ -5,6 +5,7 @@ const Footer = () => {
 
 	return (
 	<div className="footer">
+        <p> "You show us the land, and well come up with the plan! Its that Simple!" -Chris Rodgers</p>
         <div>Contact Us</div>
         <Link to="/consult" style={{ textDecoration: 'none', color: 'rgba( 0, 74, 173, 1.0)' }}><p className="link"> Consultation </p></Link>
         <div><a href="https://m.facebook.com/people/Craftco-Exteriors-LLC/100054624872433/"><img src="./facebook.png" alt="icon"/></a></div> 
